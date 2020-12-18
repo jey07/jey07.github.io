@@ -16,16 +16,5 @@
       <description>A probability distribution gives the probability of having Y. To get Y or random value from probability, a usual method is to find inverse CDF. There are several pdf whose inverse have no closed solution or difficult to obtain. Acceptance/Rejection method is used when it is not possible to find inverse CDF of a distribution so that we can get random variable (rv) using inverse but we have a pdf for the distribution.</description>
     </item>
     
-    <item>
-      <title>Hello R Markdown</title>
-      <link>https://jey07.github.io/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>https://jey07.github.io/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
-    </item>
-    
   </channel>
 </rss>
