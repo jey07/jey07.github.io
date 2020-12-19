@@ -161,5 +161,5 @@ There are different flavors of rejection sampling like Squeezed rejection sampli
 
 - <a href="http://www.columbia.edu/~ks20/4703-Sigman/4703-07-Notes-ARM.pdf">Columbia university notes</a>
 - <a href="https://stats.stackexchange.com/questions/391598/understanding-rejection-sampling">Stack overflow</a>
-- Rejection sampling (RS) technique, suggested first by</a href="https://dornsifecms.usc.edu/assets/sites/520/docs/VonNeumann-ams12p36-38.pdf"> John von Neumann</a> in 1951
+- Rejection sampling (RS) technique, suggested first by <a href="https://dornsifecms.usc.edu/assets/sites/520/docs/VonNeumann-ams12p36-38.pdf">John von Neumann</a> in 1951.
 

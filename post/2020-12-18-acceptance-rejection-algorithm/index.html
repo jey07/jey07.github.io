@@ -247,13 +247,13 @@ The average rejection rate is :
 <span class="math display">\[1 - \frac{2000}{total}\]</span>
 <br></p>
 <p>Where total is the total number of iterations required to generate 2000 samples. Our average rejection rate is nearly equal to expected rejection rate.</p>
-<pre><code>## The average rejection rate is : 0.2432841</code></pre>
+<pre><code>## The average rejection rate is : 0.2421372</code></pre>
 <p>You might be thinking why we need sampling method, that too generating random samples from probability. Imagine you have dataset where there are missing values and you might know a distribution from which the samples can be generated. But taking the inverse of that distribution might be too difficult. In that case we can use this method. It might feel weird to do this process because we don’t encounter it while doing sampling. Many known densities (exponential, normal, beta etc) have library methods that generate samples using one of different sampling method. Unlike inverse CDF, this method can be extend to multivariate random variables. If the random variable is of a reasonably low dimension (less than 10?), then rejection sampling is a plausible general approach. But keep in mind that as the number of dimension increase the rate of rejection increases.</p>
 <p>There are different flavors of rejection sampling like Squeezed rejection sampling, adaptive rejection sampling etc. The acceptance-rejection method can be generalized to the Metropolis–Hastings algorithm which is a type of Markov chain Monte Carlo simulation. Below are some of the awesome link to understand more of this method:</p>
 <ul>
 <li><a href="http://www.columbia.edu/~ks20/4703-Sigman/4703-07-Notes-ARM.pdf">Columbia university notes</a></li>
 <li><a href="https://stats.stackexchange.com/questions/391598/understanding-rejection-sampling">Stack overflow</a></li>
-<li>Rejection sampling (RS) technique, suggested first by</a href="https://dornsifecms.usc.edu/assets/sites/520/docs/VonNeumann-ams12p36-38.pdf"> John von Neumann</a> in 1951</li>
+<li>Rejection sampling (RS) technique, suggested first by <a href="https://dornsifecms.usc.edu/assets/sites/520/docs/VonNeumann-ams12p36-38.pdf">John von Neumann</a> in 1951.</li>
 </ul>
 
   </article>
