@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jey07.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acceptance-rejection algorithm</title>
-      <link>https://jey07.github.io/blogs/acceptance-rejection-algorithm/</link>
+      <link>https://jey07.github.io/post/2020-12-18-acceptance-rejection-algorithm/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jey07.github.io/blogs/acceptance-rejection-algorithm/</guid>
+      <guid>https://jey07.github.io/post/2020-12-18-acceptance-rejection-algorithm/</guid>
       <description>This is one of my favourite introductory algorithm for sampling data from a distribution. A pre requisite basic knowledge about probability distribution, CDF and inverse CDF is necessary to follow the article.
 A probability distribution gives the probability of having a random variable Y. To get Y from probability, a usual method is to find inverse CDF. There are several pdf whose inverse are difficult to obtain, does not exist or have no closed solution.</description>
     </item>
